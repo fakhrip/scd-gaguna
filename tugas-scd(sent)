@@ -1,66 +1,55 @@
-sent
+PLTA
 
-Origin:
-     Takahashi
+[ Pembangkit Listrik Tenaga Air ]  
+by: Bagas - Ericho - Fakhri - Rifki - Rizki
 
-Why?
-• PPTX sucks
-• LATEX sucks
-• PDF sucks
- 
-also:
-terminal presentations
-don't support images…
+Intro
+Jadi bagaimana kita mendapatkan listrik dari air? Sebenarnya, pembangkit listrik tenaga air
+dan batu bara menghasilkan listrik dengan cara yang sama. Dalam kedua kasus, sumber daya
+digunakan untuk mengubah bagian seperti baling-baling yang disebut turbin.
 
-this text will not be displayed, since the @ at the start of the first line
-makes this paragraph an image slide.
+Here's the concept 🠒
 
-easy to use
+@hydro.jpg
 
-depends on
-♽ Xlib
-☢ Xft
-☃ farbfeld
+But, how ?
 
-~1000 lines of code
+@turbine.jpg
 
-usage:
-$ sent FILE1 [FILE2 …]
+"A hydraulic turbine converts the energy of flowing water into mechanical energy. A
+hydroelectric generator converts this mechanical energy into electricity. The operation of a
+generator is based on the principles discovered by Faraday. He found that when a magnet is
+moved past a conductor, it causes electricity to flow. In a large generator, electromagnets
+are made by circulating direct current through loops of wire wound around stacks of magnetic
+steel laminations. These are called field poles, and are mounted on the perimeter of the
+rotor. The rotor is attached to the turbine shaft, and rotates at a fixed speed. When the
+rotor turns, it causes the field poles (the electromagnets) to move past the conductors
+mounted in the stator. This, in turn, causes electricity to flow and a voltage to develop at
+the generator output terminals." - [usgs.gov]
 
-▸ one slide per paragraph
-▸ lines starting with # are ignored
-▸ image slide: paragraph containing @FILENAME
-▸ empty slide: just use a \ as a paragraph
+Problem
+Semakin banyak teknologi yang digunakan pada masa ini maka kebutuhan listrik akan meningkat 
+juga, tetapi jika hanya mengandalkan PLTA atau Pembangkit Listrik lainnya bagaimana kebutuhan 
+listrik kita bisa terpenuhi ?
 
-# This is a comment and will not be part of the presentation
+Solution
+"Pumped storage: Reusing water for peak electricity demand"
 
-# multiple empty lines between paragraphs are also ignored
-
-
-# The following lines should produce
-# one empty slide
-
-
-
+Pumped Storage atau Penyimpanan yang dipompa adalah metode menyimpan air dalam cadangan untuk 
+kebutuhan daya periode puncak dengan memompa air yang telah mengalir melalui turbin, menyokong
+kolam penyimpanan di atas pembangkit listrik pada saat permintaan energi oleh pelanggan rendah,
+seperti selama pertengahan malam ini.
 \
-\
+Air kemudian dibiarkan mengalir kembali melalui generator turbin pada saat permintaan tinggi
+dan beban berat ditempatkan pada sistem.
 
-\@this_line_actually_started_with_a_\.png
-\#This line as well
-⇒ Prepend a backslash to kill behaviour of special characters
+@storage.jpg
 
-Images are handled in the
-http://tools.suckless.org/farbfeld/
-format internally.
+Summary
+Jadi, intinya semua Pembangkit sebenarnya menggunakan konsep yang sama antara satu dengan
+lainnya tetapi hanya beda dari jenis sumber yang digunakan sebagai penggerak rotor pada 
+generator nya dan cara mengolah sumber tersebut agar bisa menggerakan rotor pada generatornya
 
-sent also supports transparent images.
-Try changing the background in config.h
-and rebuild.
+Thanks
 
-😀😁😂😃😄😅😆😇😈😉😊😋😌😍😎😏
-😐😑😒😓😔😕😖😗😘😙😚😛😜😝😞😟
-😠😡😢😣😥😦😧😨😩😪😫😭😮😯😰😱
-😲😳😴😵😶😷😸😹😺😻😼😽😾😿🙀☠
-
-thanks.
-questions?
+@meme.jpg
